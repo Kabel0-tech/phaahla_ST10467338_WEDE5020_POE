@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<body>
+    
+    <img src="images\logobakery.png" alt="Yeast Artisan Bakery & Grocer Logo">
+    
+</form>
+   <a href="index.html">Home</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="productcatalog.html">Product Catalog</a>
+        <a href="pre-orders.html">Online Pre-Orders</a>
+        <a href="locationshours.html">Locations & Hours</a>
+        <a href="contactus.html">Contact Us</a>
+        <form action="/search" method="get">
+    <input type="search" name="query" placeholder="Search...">
+    <button type="submit">Search</button>
+
+        <h1>Get in Touch With Us</h1>
+        <h3>Do you have a question about our menu, need a custom catering quote, or just want to say hi? We would love to hear from you.</h3>
+        <h3>Call or Email Us</h3>
+        <p><b>Bedfordview Branch:</b>+27 (0)11 455 1234</p>
+        <p><b>Edenvale Branch:</b>+27 (0)11 453 5678</p>
+        <p><b>For Inquiries:</b> info@yeastbakery.co.za</p>
+        <p><b>For Catering & Orders:</b> orders@yeastbakery.co.za</p>
+
+    <section class="contact-section">
+        <p><b>Have a question or custom order request? Fill out the form below and we'll get back to you within 24 hours.</b></p>
+
+        <form action="#" method="POST" class="contact-form">
+            
+            <div class="form-group">
+                <label for="fullName">Full Name *</label>
+                <input type="text" id="fullName" name="fullName" placeholder="e.g. Jane Doe" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" placeholder="e.g. jane@example.com" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone Number *</label>
+                <input type="tel" id="phone" name="phone" placeholder="e.g. 082 123 4567" required>
+            </div>
+
+            <div class="form-group">
+                <label for="branch">Preferred Branch *</label>
+                <select id="branch" name="branch" required>
+                    <option value="" disabled selected>Select a branch...</option>
+                    <option value="bedfordview">Bedfordview (Bedford Arcade)</option>
+                    <option value="edenvale">Edenvale (Dunvegan)</option>
+                    <option value="general">General / Unspecified</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="inquiryType">Subject / Inquiry Type *</label>
+                <select id="inquiryType" name="inquiryType" required>
+                    <option value="" disabled selected>Select an option...</option>
+                    <option value="general">General Question</option>
+                    <option value="wholesale">Wholesale Inquiry</option>
+                    <option value="catering">Event Catering & Platters</option>
+                    <option value="feedback">Feedback</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Your Message *</label>
+                <textarea id="message" name="message" rows="5" placeholder="Tell us how we can help you..." required></textarea>
+            </div>
+
+            <div class="form-group">
+                <button type="submit" class="btn-submit">Send Message</button>
+            </div>
+
+        </form>
+    </section>
+
+    <p>&copy; 2026 YEAST Artisan Bakery & Grocer (Pty) Ltd. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+</body>
+</html>

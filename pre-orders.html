@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Pre-orders</title>
+</head>
+<body>
+    <img src="images\logobakery.png" alt="Yeast Artisan Bakery & Grocer Logo">
+    <a href="index.html">Home</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="productcatalog.html">Product Catalog</a>
+        <a href="pre-orders.html">Online Pre-Orders</a>
+        <a href="locationshours.html">Locations & Hours</a>
+        <a href="contactus.html">Contact Us</a>
+
+<form action="#" method="POST" class="preorder-form">
+
+    <fieldset>
+        <legend>1. Select Pickup Location</legend>
+        <label for="pickupBranch">Pickup Branch *</label>
+        <select id="pickupBranch" name="pickupBranch" required>
+            <option value="" disabled selected>Choose your store...</option>
+            <option value="bedfordview">Bedfordview (Bedford Arcade)</option>
+            <option value="edenvale">Edenvale (Dunvegan)</option>
+        </select>
+    </fieldset>
+
+    <fieldset>
+        <legend>2. Pickup Date & Time</legend>
+        <label for="pickupDate">Pickup Date *</label>
+        <input type="date" id="pickupDate" name="pickupDate" required>
+
+        <label for="pickupTime">Preferred Pickup Time *</label>
+        <select id="pickupTime" name="pickupTime" required>
+            <option value="" disabled selected>Select time slot...</option>
+            <option value="morning_early">07:30 AM - 10:00 AM</option>
+            <option value="morning_late">10:00 AM - 12:30 PM</option>
+            <option value="afternoon">12:30 PM - 03:00 PM</option>
+        </select>
+    </fieldset>
+
+    <fieldset>
+        <legend>3. Select Your Items</legend>
+        
+        <div class="item-selection">
+            <label for="item1">Traditional Sourdough Loaf (R55.00)</label>
+            <input type="number" id="item1" name="sourdough_qty" min="0" value="0">
+        </div>
+
+        <div class="item-selection">
+            <label for="item2">Seeded Rye Bread (R60.00)</label>
+            <input type="number" id="item2" name="rye_qty" min="0" value="0">
+        </div>
+
+        <div class="item-selection">
+            <label for="item3">Butter Croissant (R32.00)</label>
+            <input type="number" id="item3" name="croissant_qty" min="0" value="0">
+        </div>
+
+        <div class="item-selection">
+            <label for="item4">Fresh Farm Whole Milk 1L (R28.00)</label>
+            <input type="number" id="item4" name="milk_qty" min="0" value="0">
+        </div>
+
+        <label for="customRequests">Custom Notes / Party Platter Requests</label>
+        <textarea id="customRequests" name="customRequests" rows="3" placeholder="Specify slicing preferences, dietary needs, or cake message..."></textarea>
+    </fieldset>
+
+    <fieldset>
+        <legend>4. Customer Information</legend>
+        <label for="custName">Full Name *</label>
+        <input type="text" id="custName" name="custName" placeholder="e.g. Jane Doe" required>
+
+        <label for="custEmail">Email Address *</label>
+        <input type="email" id="custEmail" name="custEmail" placeholder="e.g. jane@example.com" required>
+
+        <label for="custPhone">Phone Number *</label>
+        <input type="tel" id="custPhone" name="custPhone" placeholder="e.g. 082 123 4567" required>
+    </fieldset>
+
+    <fieldset>
+        <legend>5. Payment Method</legend>
+        <label>
+            <input type="radio" name="paymentMethod" value="instore" checked> Pay on Pickup (Card / Cash in-store)
+        </label>
+        <label>
+            <input type="radio" name="paymentMethod" value="online"> Instant Online Payment (PayFast / Card)
+        </label>
+    </fieldset>
+
+    <button type="submit" class="btn-order">Submit Pre-Order</button>
+
+    <p>&copy; 2026 YEAST Artisan Bakery & Grocer (Pty) Ltd. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+</form>
+</body>
+</html>
