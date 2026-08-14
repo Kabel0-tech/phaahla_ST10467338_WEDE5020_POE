@@ -1,0 +1,59 @@
+# phaahla_ST10467338_WEDE5020_POE
+Responsive website concept and front-end design for YEAST Artisan Bakery &amp; Grocer, built with HTML, CSS, and JavaScript in Visual Studio Code.
+
+Student Name: Kabelo Phaahla
+Student ID: ST10467338
+MODULE: WEDE5020
+
+Project Overview
+YEAST Artisan Bakery & Grocer is a small business that operates in across two branches in Gauteng. Bedfordview and Edenvale. YEAST specializes in baked goods and fresh farm produce sourced from local suppliers.
+The purpose of this website is to provide a modern, responsive front-end solution to brand visibility, enable online pre-orders, and provide customers with clear store locations and contact information.
+
+Website Goals and Objectives 
+Goals 
+Enable seamless online ordering for distinctly baked goods, expand the brand’s 
+visibility across Gauteng, and streamline customer inquiries for even catering 
+platters. 
+
+Objectives 
+Achieve a 30% increase in online pre-order volume and to see monthly website visits 
+increase by at least 40% within 4 months after the launch of the website.
+
+Proposed Website Features & Functionality 
+Features – Homepage that features fresh daily specials and an interactive Product catalog. 
+Functionality – An online custom pre-order form, different store Locations and 
+Hours page. 
+
+Technical Requirements 
+● Development Environment (IDE): Visual Studio Code (VS Code). 
+● Tech Stack: HTML, CSS, and JavaScript
+
+Timeline and Milestones 
+Weeks 1-2: Client requirements gathering, content sourcing, and low-fidelity 
+wireframing.  
+Weeks 3-5: Front-end web development, catalog design, and order script 
+integration.  
+Week 6: Cross-device usability testing, lecturer evaluation, and deployment.
+
+Sitemap
+[ Homepage ]
+    │
+    ├──> [ About Us ]
+    │      ├── Our Story & Philosophy
+    │      └── Sourcing & Local Farmers
+    │
+    ├──> [ Product Catalog ]
+    │      ├── Artisan Breads
+    │      ├── Gourmet Pastries & Coffee
+    │      └── Organic Grocer & Produce
+    │
+    ├──> [ Online Pre-Orders ]
+    │      ├── Pickup Location & Time Selector
+    │      └── Custom Order Request Form
+    │
+    ├──> [ Locations & Hours ]
+    │      ├── Bedfordview Store (Map & Hours)
+    │      └── Edenvale Store (Map & Hours)
+    │
+    └──> [ Contact Us ]
+           ├── Inquiries & Catering Form
