@@ -37,23 +37,22 @@ Week 6: Cross-device usability testing, lecturer evaluation, and deployment.
 
 Sitemap
 [ Homepage ]
-    │
-    ├──> [ About Us ]
-    │      ├── Our Story & Philosophy
-    │      └── Sourcing & Local Farmers
-    │
-    ├──> [ Product Catalog ]
-    │      ├── Artisan Breads
-    │      ├── Gourmet Pastries & Coffee
-    │      └── Organic Grocer & Produce
-    │
-    ├──> [ Online Pre-Orders ]
-    │      ├── Pickup Location & Time Selector
-    │      └── Custom Order Request Form
-    │
-    ├──> [ Locations & Hours ]
-    │      ├── Bedfordview Store (Map & Hours)
-    │      └── Edenvale Store (Map & Hours)
-    │
-    └──> [ Contact Us ]
-           ├── Inquiries & Catering Form
+     [ About Us ]
+       - Our Story & Philosophy
+       - Sourcing & Local Farmers
+    
+     [ Product Catalog ]
+       - Artisan Breads
+       - Gourmet Pastries & Coffee
+       -Organic Grocer & Produce
+    
+     [ Online Pre-Orders ]
+       -Pickup Location & Time Selector
+       -Custom Order Request Form
+    
+     [ Locations & Hours ]
+       -Bedfordview Store (Map & Hours)
+       -Edenvale Store (Map & Hours)
+    
+     [ Contact Us ]
+       -Inquiries & Catering Form
