@@ -1,24 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
 </head>
 <body>
     
-    <img src="images\logobakery.png" alt="Yeast Artisan Bakery & Grocer Logo">
-    <a href="index.html">Home</a>
+    <div id="wrapper">
+
+	  <header><img src="images/logobakery.png" alt="Yeast Artisan Bakery & Grocer Logo">
+		<nav id="topLinks">
+        <ul>
+        <a href="index.html">Home</a>
         <a href="aboutus.html">About Us</a>
         <a href="productcatalog.html">Product Catalog</a>
         <a href="pre-orders.html">Online Pre-Orders</a>
         <a href="locationshours.html">Locations & Hours</a>
         <a href="contactus.html">Contact Us</a>
+        </ul>
+         </nav>
+            </header>
         <form action="/search" method="get">
     <input type="search" name="query" placeholder="Search...">
     <button type="submit">Search</button>
 </form>
 
+        <main id="aboutus">
         <h1>The YEAST Journey</h1>
         <h2>From Just a Dream To Your Family Table</h2>
         <p>Founded in early 2023 by Estelle, YEAST Artisan Bakery & Grocer started as an intimate busuness with a mission to be known for the best quality artisan baking in the local community we serve and for fresh, best quality produce in our independent grocer. We operate across two settings in Gauteng: Bedford Arcade in Bedfordview and Dunvegan in Edenvale. We take pride in being a warm neighbourhood nucleus where quality, service, and care come first. YEAST is built around the joy of wholesome and honest food.</p>
@@ -42,10 +51,24 @@
             <a href="https://www.facebook.com/yeast_bakery" target="_blank" rel="noopener noreferrer">Facebook
             <a href="https://www.instagram.com/yeast_bakery" target="_blank" rel="noopener noreferrer">Instagram</a>
         </div>
+        </main>
+      
+        <footer>
+            <ul>
+                <li><nav id="bottomLinks"></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="productcatalog.html">Product Catalog</a></li>
+                <li><a href="pre-orders.html">Online Pre-Orders</a></li>
+                <li><a href="locationshours.html">Locations & Hours</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+            </nav>
 
-        <p>&copy; 2026 YEAST Artisan Bakery & Grocer (Pty) Ltd. All rights reserved.</p>
-        <div class="footer-links">
-            <a href="#">Privacy Policy</a> 
-            <a href="#">Terms of Service</a>
+        <p>
+           &copy; 2026 YEAST Artisan Bakery & Grocer (Pty) Ltd. All rights reserved.
+        </p>
+    </footer>
+
+</div>
 </body>
 </html>

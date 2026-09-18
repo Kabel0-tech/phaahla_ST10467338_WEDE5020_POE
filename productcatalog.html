@@ -1,24 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Catalog</title>
+    
 </head>
 <body>
     
-    <img src="images\logobakery.png" alt="Yeast Artisan Bakery & Grocer Logo">
-    <a href="index.html">Home</a>
+    <div id="wrapper">
+
+	  <header><img src="images/logobakery.png" alt="Yeast Artisan Bakery & Grocer Logo">
+		<nav id="topLinks">
+        <ul>
+        <a href="index.html">Home</a>
         <a href="aboutus.html">About Us</a>
         <a href="productcatalog.html">Product Catalog</a>
         <a href="pre-orders.html">Online Pre-Orders</a>
         <a href="locationshours.html">Locations & Hours</a>
         <a href="contactus.html">Contact Us</a>
+        </ul>
+         </nav>
+            </header>
         <form action="/search" method="get">
     <input type="search" name="query" placeholder="Search...">
     <button type="submit">Search</button>
 </form>
-
+        <main id="productcatalog">
         <h1>Our Fresh Daily Selection</h1>
         <h2>Surf through our range of freshly-baked breads, pastries and organic grocer items</h2>
         
@@ -45,11 +54,25 @@
         <p>Locally sourced, unpasteurized organic milk from nearby Gauteng dairy farms.</p>
         <li><b>Price:</b>R28.00</li>
 
-        <p><li><b>Please Note</b>All items are prepared daily in an environment handling nuts, dairy, and gluten. For specific ingredient inquiries or custom cake requests, please place an inquiry on our <b>Online Pre-Orders</b> page.</li></p>
+        <p><li><b>Please Note: </b>All items are prepared daily in an environment handling nuts, dairy, and gluten. For specific ingredient inquiries or custom cake requests, please place an inquiry on our <b><a href="pre-orders.html">Online Pre-Orders</a></b> page.</li></p>
+</main>
 
-        <p>&copy; 2026 YEAST Artisan Bakery & Grocer (Pty) Ltd. All rights reserved.</p>
-        <div class="footer-links">
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms of Service</a>
+        <footer>
+            <ul>
+                <li><nav id="bottomLinks"></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="productcatalog.html">Product Catalog</a></li>
+                <li><a href="pre-orders.html">Online Pre-Orders</a></li>
+                <li><a href="locationshours.html">Locations & Hours</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+            </nav>
+
+        <p>
+           &copy; 2026 YEAST Artisan Bakery & Grocer (Pty) Ltd. All rights reserved.
+        </p>
+    </footer>
+
+</div>
 </body>
 </html>
